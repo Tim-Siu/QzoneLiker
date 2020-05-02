@@ -199,7 +199,7 @@ if __name__ == "__main__":
     errtime=0
     while True:
         try:
-            if errtime > 5:
+            if errtime > 100:
                 break
             MsgHandler()
             time.sleep(checkFrequency)
